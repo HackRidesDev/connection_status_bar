@@ -112,7 +112,7 @@ class _ConnectionStatusSingleton {
     connectionChangeController.close();
   }
 
-  void _connectionChange(ConnectivityResult result) {
+  void _connectionChange(List<ConnectivityResult> result) {
     checkConnection();
   }
 
